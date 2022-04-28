@@ -7,7 +7,7 @@ import os
 # IP of the client
 IP = "127.0.0.1"
 # IP of the server
-serverIP="192.168.43.26"
+serverIP="172.16.145.190"
 # generate a random port number for the client
 port = random.randint(6000,10000)
 print('Client IP: '+str(IP)+' Port: '+str(port))
